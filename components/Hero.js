@@ -25,12 +25,12 @@ export default function Hero() {
 	return (
 		<div className="mx-auto mb-20 grid grid-cols-1 gap-4 lg:grid-cols-2">
 			<h1 className="my-auto max-w-lg text-5xl font-bold leading-[4rem] md:text-6xl">
-				High-quality{" "}
+				I am a{" "}
 				<span
 					className="invisible bg-gradient-to-r from-pink-500 to-pink-700 bg-clip-text text-transparent dark:from-pink-400 dark:to-pink-600"
 					ref={ref}
 				>
-					experiences
+					Developer
 				</span>
 				<noscript>
 					<style>
@@ -47,7 +47,7 @@ export default function Hero() {
 				>
 					{mounted && (
 						<Typewriter
-							words={["apps", "services", "experiences"]}
+							words={["Nerd", "Maker", "Tinkerer", "Developer"]} // and code thief (Hi Nick)
 							typeSpeed={100}
 							deleteSpeed={100}
 							delaySpeed={1000}

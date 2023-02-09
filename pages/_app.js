@@ -7,11 +7,11 @@ import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }) {
-	const title = pageProps?.seo?.title ?? "Peroxaan Studios";
+	const title = pageProps?.seo?.title ?? "Cobre";
 
 	const pageTitle = pageProps?.seo?.title
-		? pageProps.seo.title + " | Peroxaan Studios"
-		: "Peroxaan Studios";
+		? pageProps.seo.title + " | Cobre"
+		: "Cobre";
 	const description =
 		pageProps?.seo?.description ??
 		"High-quality experiences for iOS, macOS, and Windows.";
@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
 		process.env.NEXT_PUBLIC_URL + (pageProps?.seo?.image ?? "/cover.png");
 	const imageAlt =
 		pageProps?.seo?.imageAlt ??
-		"Peroxaan Studios logo and name on a pink background.";
+		"Cobre logo and name on a pink background.";
 
 	return (
 		<ThemeProvider attribute="class" disableTransitionOnChange>
@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
 				<meta property="og:image:alt" content={imageAlt} />
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://peroxaan.com" />
-				<meta property="og:site_name" content="Peroxaan Studios" />
+				<meta property="og:site_name" content="Cobre" />
 				<meta name="twitter:card" content="summary_large_image" />
 			</Head>
 
@@ -51,9 +51,9 @@ export default function App({ Component, pageProps }) {
 			</main>
 
 			<footer className="my-20 mx-auto max-w-7xl px-6 text-zinc-600 dark:text-zinc-400 2xl:px-0">
-				<p>© 2023 Peroxaan Studios, LLC.</p>
+				<p>© 2023 Cobre.</p>
 				<p>
-					Website built by{" "}
+					Website design shamelessly stolen from{" "}
 					<a
 						href="https://nchristopher.me"
 						className="underline transition-colors ease-in-out hover:text-blue-700 dark:hover:text-blue-300"
@@ -62,7 +62,7 @@ export default function App({ Component, pageProps }) {
 					</a>
 					.
 				</p>
-				<p className="mb-2">
+				{/* <p className="mb-2">
 					Peroxaan logo designed by{" "}
 					<a
 						href="https://twitter.com/DylanMcD8"
@@ -72,7 +72,7 @@ export default function App({ Component, pageProps }) {
 					</a>
 					.
 				</p>
-				<p>App Store and the Apple logo are trademarks of Apple Inc.</p>
+				<p>App Store and the Apple logo are trademarks of Apple Inc.</p> */}
 			</footer>
 		</ThemeProvider>
 	);

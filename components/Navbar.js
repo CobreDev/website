@@ -63,27 +63,27 @@ export default function Navbar() {
 			>
 				<div className="bg-gradient-to-r from-pink-500 to-pink-600 bg-clip-text text-transparent dark:from-pink-400 dark:to-pink-600">
 					<PeroxaanIcon className="mr-2 inline-block text-pink-600 dark:text-pink-400" />
-					Peroxaan
+					Cobre
 				</div>
 			</Link>
 			<div className="hidden text-xl font-semibold lg:block">{links}</div>
 			<div className="flex flex-row items-center">
-				<a href="https://twitter.com/peroxaan">
+				<a href="https://twitter.com/CobreDev">
 					<IconBrandTwitter
 						className="hidden h-full w-10 rounded-lg p-2 transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 lg:block"
-						aria-label="Peroxaan on Twitter"
+						aria-label="Cobre on Twitter"
 					/>
 				</a>
-				<a href="https://instagram.com/peroxaan">
+				{/* <a href="https://instagram.com/peroxaan">
 					<IconBrandInstagram
 						className="hidden h-full w-10 rounded-lg p-2 transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 lg:block"
 						aria-label="Peroxaan on Instagram"
 					/>
-				</a>
-				<a href="https://github.com/peroxaan">
+				</a> */}
+				<a href="https://github.com/CobreDev">
 					<IconBrandGithub
 						className="hidden h-full w-10 rounded-lg p-2 transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 lg:block"
-						aria-label="Peroxaan on GitHub"
+						aria-label="Cobre on GitHub"
 					/>
 				</a>
 
